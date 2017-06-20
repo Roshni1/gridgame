@@ -1,0 +1,36 @@
+    <html>
+	 <title>GridGame</title>
+	<head>
+        <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self' 'unsafe-inline' data;
+        style-src 'self' 'unsafe-inline';
+        img-src 'self' data;
+        font-src 'self' data;						
+        script-src 'self' 'unsafe-inline';
+        " />
+		<link rel='stylesheet' type='text/css' href='play_style.css'/>
+		<script src="jquery.min.js"></script>
+		<script src="play_script.js"></script>
+	</head>
+	<body >
+		
+        <div>
+            <!--<div id="button_wrapper" align="center">
+            <button class="button">Theme1</button>
+            <button class="button">Theme2</button>
+            </div> -->
+            <div id="canvas_wrapper" align="center"></div>
+        </div>
+		<div align ="center"><p id="timer"></p></div>
+		<img  id="block" width="220" height="277" src="wall.png" alt="block">
+		<img  id="soldier" width="500" height="500" src="soldier.png" alt="The Soldier">
+		<img  id="killed" width="50" height="50" src="killed.png" alt="down">
+		<img  id="demon" width="220" height="277" src="demon.jpg" alt="demon">
+		<img  id="blast" width="220" height="277" src="blast.png" alt="blast">
+		<img  id="up" width="50" height="50" src="up.jpg" alt="up">
+		<img  id="left" width="50" height="50" src="left.jpg" alt="left">
+		<img  id="right" width="50" height="50" src="rig.jpg" alt="right">
+		<img  id="down" width="50" height="50" src="down.jpg" alt="down">
+
+	</body>
+</html>
